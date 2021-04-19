@@ -6,7 +6,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = '财研课堂' || '' // page title
+const name = '班班' || '' // page title
 
 // If your port is set to 80,
 // use administrator privileges to execute the command line.
@@ -30,7 +30,6 @@ module.exports = {
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
   devServer: {
-    host:'172.20.10.3',
     port: port,
     open: true,
     overlay: {
@@ -39,7 +38,7 @@ module.exports = {
     },
     proxy: {
       '/api': {
-        target: 'http://campapi.ssjygw.com',
+        target: 'http://test.xxxx.com',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '/api'

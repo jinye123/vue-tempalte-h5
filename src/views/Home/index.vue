@@ -5,26 +5,19 @@
 </template>
 
 <script>
-
-import {mobile} from "@/utils/validate";
-import {getHomeData} from "@/api";
-import {Toast} from "vant";
+import {mobile} from '@/utils/validate'
+import {getHomeData} from '@/api'
+import {Toast} from 'vant'
 
 console.log(getHomeData)
 export default {
-  name: "webCamp",
+  name: 'webCamp',
   data() {
-    return {
-
-    }
+    return {}
   },
   computed: {},
-  methods: {
-
-  }
+  methods: {}
 }
 </script>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

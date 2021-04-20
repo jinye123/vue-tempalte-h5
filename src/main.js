@@ -10,8 +10,8 @@ import '@/plugins/vant'
 //  权限
 import '@/permission'
 //  IE 兼容
-import "core-js/stable";
-import "regenerator-runtime/runtime";
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
 // 移动端适配
 import 'lib-flexible/flexible.js'
 // filters
